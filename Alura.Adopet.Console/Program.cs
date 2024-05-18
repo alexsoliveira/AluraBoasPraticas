@@ -25,8 +25,8 @@ try
             show.ExibeConteudoArquivo(caminhoDoArquivoASerExibido: args[1]);
             break;
         case "list":
-            var listarPet = new List();
-            await listarPet.ListaDadosPetsDaAPIAsync();
+            var list = new List();
+            await list.ListaDadosPetsDaAPIAsync();
             break;
         default:
             // exibe mensagem de comando inválido
